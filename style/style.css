@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .primary-button{
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+
+  }
+  body section{
+    margin-top: 60px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .source-link ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  ul li{
+    list-style: none;
+
+  }
+
+  ul a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .navbar h2{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 2.25rem;
+font-weight: 700;
+  }
+  /* BANNAR SECTION  */
+  .bannar-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bannar-title h1{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .bannar-title p{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+  }
+.bannar-img{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.bannar-img img{
+    width: 100%;
+}
+/* our features section */
+.features-img{
+    max-width:500px;
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.features-text{
+    max-width: 537px;
+    max-height: 304px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.features-img img{
+    width: 100%;
+}
+.first-text{
+    color: #727272;
+    font-family: Work Sans;
+font-size: 2rem;
+font-weight: 500;
+}
+.middle-text{
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.end-text{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.our-feature h2{
+    margin: 0;
+}
+@media screen and (max-width: 576px) {
+    .navbar,.features{
+        flex-direction: column;
+    }   
+    .features-img{
+        grid-template-columns:repeat(1,1fr);
+
+    } 
+    body {
+        background-color: #FF900E;
+    }
+    .features-text{
+        /* max-width: 537px;
+        max-height: 304px; */
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .features-img{
+        /* max-width:500px;
+        max-height: 500px; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+
+}
